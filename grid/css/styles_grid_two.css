@@ -1,0 +1,25 @@
+body {
+    background: pink;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 1em;
+}
+
+header, footer {
+    grid-column: 1 / 4;
+    background: lightgrey;
+}
+
+sidebar-left, sidebar-right {
+    background: lightblue;
+}
+
+article {
+    background: darkgrey;
+}
+

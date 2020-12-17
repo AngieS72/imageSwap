@@ -1,0 +1,40 @@
+body {
+    background: blue;
+}
+
+/* Name child elements using grid-area:*/
+
+header {
+    grid-area: header;
+    background: lightblue;
+}
+
+footer {
+    grid-area: footer;
+    background: lightblue;
+}
+
+.sidebar-left {
+    grid-area: sidebar-1;
+    background: lightgray;
+}
+
+article {
+    grid-area: article;
+    background: darkblue;
+}
+
+.sidebar-right {
+    grid-area: sidebar-2;
+    background: lightgray;
+}
+
+/*name those areas on the parent .grid element using grid-template-areas*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 1em;
+    grid-template-areas: "header header header" "sidebar-1 article sidebar-2" "footer footer footer";
+}

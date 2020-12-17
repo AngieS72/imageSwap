@@ -1,0 +1,50 @@
+body{
+  background: green;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 1em;
+}
+header {
+  /* Start on Row 1 */
+  grid-row: 1;
+  /* Start on the first column line and extend all the to the last column line */
+  grid-column: 1 / 4;
+  background: lightgrey;
+}
+
+.sidebar-left {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the first column line and stop at the next column line */
+  grid-column: 1 / 2;
+  background: pink;
+}
+
+article {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the second column line and stop at the third column line */
+  grid-column: 2 / 3;
+  background: darkgrey;
+}
+
+.sidebar-right {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the third column line and stop at the last column line */
+  grid-column: 3 / 4;
+  background: pink;
+}
+
+footer {
+  /* Start on Row 3, the last row */
+  grid-row: 3;
+  /* Start on the first column line and extend all the to the last column line */
+  grid-column: 1 / 4;
+  background: lightgrey;
+}
+
