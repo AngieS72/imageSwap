@@ -1,0 +1,26 @@
+/* Table 1 */
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: right;
+}
+th, .left, .middle{
+    text-align: left;
+}
+.right{
+    text-align:right;
+}
+thead{
+    background-color: yellow;
+}
+thead, tbody{
+    text-align: left;
+}
+tbody tr:nth-child(even){
+background-color:yellow;
+}
+

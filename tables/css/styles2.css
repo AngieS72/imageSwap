@@ -1,0 +1,59 @@
+/* Table 2 */
+
+thead, tbody {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td, .right {
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: right;
+}
+
+th, .left, .midleft .midright {
+    text-align: left;
+}
+.midleft, .midright{
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.middle {
+    background-color: white;
+}
+
+thead, tfoot {
+    background-color: yellow;
+}
+
+thead, tbody {
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: yellow;
+}
+tfoot{
+    border: 1px solid black;
+}
+/*
+.footleft {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.footmidleft {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.footmidright{
+    border-right: 1px solid black; 
+}*/
+.footright{
+    text-align: right;
+}
