@@ -1,0 +1,71 @@
+/*CSS for index.html page>*/
+
+div.gallery {
+  margin: 2px;
+  border: 1px solid lightgray;
+  float: left;
+  width: 160px;
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: 140px;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+p{
+    font-size: smaller;
+    color: royalblue;
+}
+/* CSS for no2.html */
+h2{
+    font-style: italic;
+}
+
+header {
+    background-color: #F1F1F1;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 1px;
+  }
+
+aside{
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    padding: 56px 20px;
+    margin: 1px;
+    width: 20%;
+    float: left;
+    }
+
+main{
+    background-color: white;;
+    text-align: center;
+    border: 1px solid black;
+    padding: 56px 20px;
+    margin: 1px;
+    width: 68%;
+    float: right;
+}
+footer{
+    background-color: #F1F1F1;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 1px;
+    clear: both;    
+}
+
+/*CSS for no3.html*/
+article{
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid black;
+    font-size: medium;
+}
