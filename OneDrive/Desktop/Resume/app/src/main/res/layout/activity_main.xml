@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FC1E3"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnEmailMe"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/emailMe"
+        android:textColor="@color/white_blue"
+        app:backgroundTint="@color/army_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCallMe"/>
+
+    <Button
+        android:id="@+id/btnCallMe"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/callMe"
+        android:textColor="#201F1F"
+        app:backgroundTint="#F7F9FB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWorkHistory" />
+
+    <Button
+        android:id="@+id/btnWorkHistory"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/workHistory"
+        android:textColor="@color/white_blue"
+        app:backgroundTint="@color/army_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEducation"
+        android:onClick="onClickGoToWorkHistory"/>
+
+
+    <TextView
+        android:id="@+id/tvAngieShelton"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:background="#687864"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="start|center_vertical"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:text="@string/angie_shelton"
+        android:textColor="#F7F9FB"
+        android:textColorHighlight="@color/white_blue"
+        android:textColorHint="@color/army_green"
+        android:textColorLink="@color/army_green"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvResume"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="41dp"
+        android:background="#687864"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/resume"
+        android:textColor="#F7F9FB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAngieShelton" />
+
+    <ImageView
+        android:id="@+id/ivPortrait"
+        android:layout_width="209dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="37dp"
+        android:contentDescription="@string/portrait"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResume"
+        app:srcCompat="@drawable/portrait" />
+
+    <Button
+        android:id="@+id/btnEducation"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/education"
+        android:textColor="#201F1F"
+        app:backgroundTint="#F7F9FB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPortrait"
+        android:onClick="onClickGoToEducation"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

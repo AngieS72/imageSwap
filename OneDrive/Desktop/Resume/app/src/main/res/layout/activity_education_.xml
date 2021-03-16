@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#687864"
+    android:scrollbars="vertical"
+    android:verticalScrollbarPosition="right"
+    tools:context=".Education_Activity">
+
+    <TextView
+        android:id="@+id/tvEducationInfo"
+        android:layout_width="350dp"
+        android:layout_height="538dp"
+        android:layout_marginTop="90dp"
+        android:background="#F7F9FB"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars = "vertical"
+        android:text="@string/educationInfo"
+        android:textColor="#1E1D1D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvWorkHistoryTitle"
+        android:layout_width="158dp"
+        android:layout_height="43dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/educationActivityTitle"
+        android:textColor="#F7F9FB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvEducationInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReturnToMainPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_green"
+        android:onClick="onClickGoToMainActivity"
+        android:text="@string/returnToMainPage"
+        android:textColor="#F7F9FB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEducationInfo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

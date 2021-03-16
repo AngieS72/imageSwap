@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="angie_shelton">Angie Shelton</string>
+    <string name="resume">Resume</string>
+    <string name="portrait"></string>
+    <string name="education">Education</string>
+    <string name="workHistory">Work History</string>
+    <string name="callMe">Call Me</string>
+    <string name="emailMe">Email Me</string>
+    <string name="educationInfo"></string>
+    <string name="educationActivityTitle">Education</string>
+    <string name="returnToMainPage">Main Page</string>
+    <string name="workHistoryTitle">Work History</string>
+    <string name="workHistoryInfo"></string>
+
+
+</resources>
