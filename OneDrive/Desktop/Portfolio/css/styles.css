@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-left: 10rem;
+    padding-right: 5rem;
+    /* position: relative;*/
+}
+
+#left {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url(/images/resized_stained_glass_purplewave.jpg);
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: center;
+    font-family: 'Paprika', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.active, .nav-link:hover {
+    /* Style the active class (and buttons on mouse-over) */
+    background-color: #666;
+    color: white;
+    text-shadow: 1px 1px darkgrey;
+}
+
+.col-12 {
+    background: lightgrey;
+    font-family: 'Paprika', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#about, #coursework_skills, #portfolio, #resume, #contactMe {
+    padding: 6em 0;
+}
+
+
+.fab {
+    margin: 1rem;
+}
+
+#psskills {
+    margin: .5rem;
+}
+
+#me {
+    text-align: center;
+}
+
+.card-body{
+    border: .5em solid #239133;
+
+}
+
+.list-group-flush {
+  /*  background: rgb(238, 202, 247);*/
+    background: rgb(238, 219, 243);
+
+    margin: 1rem 10rem 1rem 13rem;
+    border: .5em solid #239133;
+}
+
+.list-group-item {
+/*background: rgb(238, 202, 247) !important;*/
+background: rgb(238, 219, 243)!important;
+
+    text-align: left;
+}
+
+
+.nested-list-group{
+   /* background: rgb(238, 202, 247) !important;*/
+   background: rgb(238, 219, 243)!important;
+
+}
+.card{
+    background: #239133 !important;
+}
+
+#right {
+    height: 100%;
+    width: 5rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-image: url(/images/flowering_vine_2.jpg);
+    background-color: #cccccc;
+}
+
+.active {
+    border-radius: 30px;
+    border: 3px solid white;
+}
+
+#section {
+    border: 3px solid lightsteelblue;
+    border-radius: 5px;
+}
+
+p {
+    padding-left: 5rem;
+}
+
+.card {
+    align-content: center;
+}
+
+.card-body {
+  /*  background-color: rgb(238, 202, 247);*/
+  background: rgb(238, 219, 243);
+
+    margin: 2rem;
+}
+
+.container {
+    text-align: left;
+}
+
+#foot {
+    text-align: right;
+    padding-right: 20rem;
+}
+
+.footer {
+    /*background: violet;*/
+    background: rgb(238, 219, 243);
+
+    height: auto;
+    width: 89.0%;
+    position: fixed;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+    overflow-x: hidden;
+    font-size: x-small;
+    text-align: center;
+}
